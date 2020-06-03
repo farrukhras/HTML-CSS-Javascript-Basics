@@ -1,0 +1,46 @@
+/*Set font size and font of all the elements and text on the page*/
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */ 
+}
+
+/*Style the heading of the page*/
+h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    color: darkgreen;
+    margin: 0;
+}
+
+/*Style the paragraph and list tags on the page*/
+p, li {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/*Change list item style on hover*/
+li:hover {
+    color: blueviolet;
+}
+
+/*Changing the page color*/
+html {
+    background-color: cadetblue;
+}
+
+/*Styling the body*/
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: darkcyan;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+/*Centering the image*/
+img {
+    display: block;
+    margin: 0 auto;
+}
